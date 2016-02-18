@@ -22,11 +22,21 @@
 # Rejestry:
 
 # Zakładki w plikach:
-'0  3  0  ~/examples/user-absent.pp
-'1  4  7  ~/examples/user-absent.pp
-'2  1  389  ~/.ssh/authorized_keys
+'0  1  12  ~/.gitignore
+'1  3  0  ~/examples/user-absent.pp
+'2  4  7  ~/examples/user-absent.pp
+'3  1  389  ~/.ssh/authorized_keys
 
 # Lista odniesień (począwszy od najnowszych):
+-'  1  12  ~/.gitignore
+-'  3  0  ~/examples/user-absent.pp
+-'  1  0  ~/examples/user-absent.pp
+-'  4  7  ~/examples/user-absent.pp
+-'  1  389  ~/.ssh/authorized_keys
+-'  1  389  ~/.ssh/authorized_keys
+-'  2  7  ~/examples/user-absent.pp
+-'  1  389  ~/.ssh/authorized_keys
+-'  1  389  ~/.ssh/authorized_keys
 -'  3  0  ~/examples/user-absent.pp
 -'  1  0  ~/examples/user-absent.pp
 -'  4  7  ~/examples/user-absent.pp
@@ -37,6 +47,12 @@
 -'  1  389  ~/.ssh/authorized_keys
 
 # Historia zakładek w plikach (od najnowszych po najstarsze):
+
+> ~/.gitignore
+	"	1	12
+	^	1	13
+	.	1	0
+	+	1	0
 
 > ~/examples/user-absent.pp
 	"	3	0

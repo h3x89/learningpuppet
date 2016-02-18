@@ -64,3 +64,10 @@ git status
 git add 
 git add .
 git status
+git commit -a
+git push
+git push -u origin master
+git status
+vim .gitignore
+git status
+git add .
