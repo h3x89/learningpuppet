@@ -18,3 +18,4 @@ user {'katie':
 }
 
 notify {"I'm notifying you.":}
+notify {"So am I!":}

@@ -26,22 +26,32 @@
 # Wiersz wprowadzeń Historia (od najnowszych po najstarsze):
 
 # Rejestry:
+"0	LINE	0
+	notify {"I'm notifying you.":}
+"1	LINE	0
+	notify {"you.":}
+""-	CHAR	0
+	you
 
 # Zakładki w plikach:
-'0  8  17  ~/examples/file-2.pp
-'1  20  28  ~/examples/file-2.pp
-'2  4  18  ~/examples/file-1.pp
-'3  5  2  ~/examples/file-1.pp
-'4  6  0  ~/examples/file-1.pp
-'5  1  12  ~/.gitignore
-'6  3  0  ~/examples/user-absent.pp
-'7  4  7  ~/examples/user-absent.pp
-'8  1  389  ~/.ssh/authorized_keys
+'0  21  16  ~/examples/file-2.pp
+'1  22  16  ~/examples/file-2.pp
+'2  8  17  ~/examples/file-2.pp
+'3  20  28  ~/examples/file-2.pp
+'4  4  18  ~/examples/file-1.pp
+'5  5  2  ~/examples/file-1.pp
+'6  6  0  ~/examples/file-1.pp
+'7  1  12  ~/.gitignore
+'8  3  0  ~/examples/user-absent.pp
+'9  4  7  ~/examples/user-absent.pp
 
 # Lista odniesień (począwszy od najnowszych):
--'  8  17  ~/examples/file-2.pp
--'  20  0  ~/examples/file-2.pp
+-'  21  16  ~/examples/file-2.pp
+-'  20  7  ~/examples/file-2.pp
+-'  2  0  ~/examples/file-2.pp
 -'  1  0  ~/examples/file-2.pp
+-'  22  16  ~/examples/file-2.pp
+-'  8  2  ~/examples/file-2.pp
 -'  4  18  ~/examples/file-1.pp
 -'  5  2  ~/examples/file-1.pp
 -'  6  0  ~/examples/file-1.pp
@@ -132,17 +142,13 @@
 -'  1  389  ~/.ssh/authorized_keys
 -'  1  389  ~/.ssh/authorized_keys
 -'  1  12  ~/.gitignore
--'  3  0  ~/examples/user-absent.pp
--'  1  0  ~/examples/user-absent.pp
--'  4  7  ~/examples/user-absent.pp
--'  1  389  ~/.ssh/authorized_keys
 
 # Historia zakładek w plikach (od najnowszych po najstarsze):
 
 > ~/examples/file-2.pp
-	"	8	17
-	^	8	18
-	.	8	17
+	"	21	16
+	^	21	17
+	.	21	16
 	+	2	17
 	+	3	11
 	+	7	22
@@ -152,6 +158,9 @@
 	+	17	19
 	+	20	28
 	+	8	17
+	+	22	0
+	+	22	0
+	+	21	16
 
 > ~/examples/file-1.pp
 	"	4	18
