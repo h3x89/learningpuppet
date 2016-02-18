@@ -108,3 +108,6 @@ vim examples/file-2.pp
 puppet apply examples/file-2.pp 
 vim examples/file-2.pp
 puppet apply examples/file-2.pp 
+git commit -a
+git add .
+git status
