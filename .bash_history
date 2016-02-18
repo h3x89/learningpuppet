@@ -91,3 +91,20 @@ git status
 git commit -a
 rm .git/index.lock 
 git add .
+git commit -a
+git push
+  git config --global push.default simple
+facter ipaddress
+man facter
+puppet apply examples/file-1.pp 
+chmod 777 /tmp/testfile 
+puppet apply examples/file-1.pp 
+cat /etc/motd 
+echo test > /tmp/testfile 
+puppet apply examples/file-1.pp 
+vim examples/file-2.pp
+puppet apply examples/file-2.pp 
+vim examples/file-2.pp
+puppet apply examples/file-2.pp 
+vim examples/file-2.pp
+puppet apply examples/file-2.pp 

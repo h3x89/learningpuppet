@@ -7,11 +7,17 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Ostatni Wyszukiwany wzorzec:
+~MSle0~/06
+
 # Wiersz poleceń Historia (od najnowszych po najstarsze):
 :x
+:X
 :q!
+:set nu
 
 # Szukany ciąg Historia (od najnowszych po najstarsze):
+?/06
 
 # Wyrażenie Historia (od najnowszych po najstarsze):
 
@@ -22,15 +28,20 @@
 # Rejestry:
 
 # Zakładki w plikach:
-'0  4  18  ~/examples/file-1.pp
-'1  5  2  ~/examples/file-1.pp
-'2  6  0  ~/examples/file-1.pp
-'3  1  12  ~/.gitignore
-'4  3  0  ~/examples/user-absent.pp
-'5  4  7  ~/examples/user-absent.pp
-'6  1  389  ~/.ssh/authorized_keys
+'0  8  17  ~/examples/file-2.pp
+'1  20  28  ~/examples/file-2.pp
+'2  4  18  ~/examples/file-1.pp
+'3  5  2  ~/examples/file-1.pp
+'4  6  0  ~/examples/file-1.pp
+'5  1  12  ~/.gitignore
+'6  3  0  ~/examples/user-absent.pp
+'7  4  7  ~/examples/user-absent.pp
+'8  1  389  ~/.ssh/authorized_keys
 
 # Lista odniesień (począwszy od najnowszych):
+-'  8  17  ~/examples/file-2.pp
+-'  20  0  ~/examples/file-2.pp
+-'  1  0  ~/examples/file-2.pp
 -'  4  18  ~/examples/file-1.pp
 -'  5  2  ~/examples/file-1.pp
 -'  6  0  ~/examples/file-1.pp
@@ -125,9 +136,22 @@
 -'  1  0  ~/examples/user-absent.pp
 -'  4  7  ~/examples/user-absent.pp
 -'  1  389  ~/.ssh/authorized_keys
--'  1  389  ~/.ssh/authorized_keys
 
 # Historia zakładek w plikach (od najnowszych po najstarsze):
+
+> ~/examples/file-2.pp
+	"	8	17
+	^	8	18
+	.	8	17
+	+	2	17
+	+	3	11
+	+	7	22
+	+	8	8
+	+	12	17
+	+	13	10
+	+	17	19
+	+	20	28
+	+	8	17
 
 > ~/examples/file-1.pp
 	"	4	18
