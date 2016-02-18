@@ -71,3 +71,23 @@ git status
 vim .gitignore
 git status
 git add .
+git checkout .bash*
+git status
+git diff
+c
+cat .gitignore
+vim examples/file-1.pp
+puppet apply examples/file-1.pp 
+vim examples/file-1.pp
+puppet apply examples/file-1.pp 
+vim examples/file-1.pp
+puppet apply examples/file-1.pp 
+cat /tmp/testfile 
+git status
+git add .
+git status
+git add .
+git status
+git commit -a
+rm .git/index.lock 
+git add .
